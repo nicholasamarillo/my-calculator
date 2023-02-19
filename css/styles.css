@@ -5,15 +5,81 @@ body{
     height: 100vh;
     
 }
+
+nav{
+    text-align: center;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    margin:20px;
+}
+
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 375px;
+    width:300px;
+    background: rgba(0,0,0, 0.5);
+    color: black;
+    text-align: center;
+    box-shadow: 10px 8px 10px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.col{
+    background-color: white;
+    border-radius: 20px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 8px 10px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.col-3:hover{
+    background: rgb(209, 129, 255);
+}
+.col-3.func:hover{
+    background:rgb(165, 255, 255)
+}
+.col-6:hover{
+    background: rgb(209, 129, 255);
+}
+.col-6.clear:hover{
+    background: rgb(255, 71, 71);
+}
+
+.col-12{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction:column;
+    padding-right: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.col-6.enter{
+    display: flex;
+    justify-content: center;
+    padding-right:0;
+}
+
+.col-6.enter:hover{
+    background:rgb(130, 255, 140);
 }
 
 footer{
-    background-color: white;
+    background: rgba(255, 255, 255, 0.694);
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 
